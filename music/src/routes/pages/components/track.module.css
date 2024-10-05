@@ -1,0 +1,111 @@
+.track{
+    padding: 1rem;
+    width: 100%;
+}
+
+.track h1{
+    text-align: center;
+    font-weight: 400;
+    color: #001D38;
+    font-size: 26px;
+    padding-bottom: 1rem;
+}
+.first-musi img{
+    width: 90%;
+}
+
+.dm p {
+    padding-bottom: 1rem;
+}
+
+.first-musi button{
+    background: none;
+    border: solid 1px red;
+    /* padding: 1rem; */
+    padding: .5rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    color: red;
+    font-weight: 500;
+}
+.first-musi button:hover{
+    background-color: red;
+    color: white;
+}
+@media (min-width: 768px) {
+  .track {
+    padding: 1rem;
+    width: 100%;
+  }
+  .track h1 {
+    text-align: center;
+    font-weight: 400;
+    color: #001d38;
+    /* padding-top: 2rem; */
+    font-size: 34px;
+  }
+  .first-musi img {
+    width: 90%;
+  }
+  .first-musi {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .dm p {
+    padding-bottom: 1rem;
+  }
+
+  .first-musi button {
+    background: none;
+    border: solid 1px red;
+    /* padding: 1rem; */
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    color: red;
+    font-weight: 500;
+  }
+  .first-musi button:hover {
+    background-color: red;
+    color: white;
+  }
+}
+@media (min-width: 1024px) {
+  .track h1 {
+    text-align: center;
+    font-weight: 400;
+    color: #001d38;
+    /* padding-top: 2rem; */
+  }
+  .first-musi {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .dm p {
+    padding-bottom: 1rem;
+  }
+
+  .first-musi button {
+    background: none;
+    border: solid 1px red;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    cursor: pointer;
+    transition: 0.3s;
+    color: red;
+    font-weight: 600;
+  }
+  .first-musi button:hover {
+    background-color: red;
+    color: white;
+  }
+}
